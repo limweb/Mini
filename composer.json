@@ -1,10 +1,14 @@
 {
+    "name": "Mini No Framework",
+    "description": "Mini No Framework for PHP 5.3+",
+    
     "require": {
+	"php": "^5.3.3,
         "klein/klein": "^2.1",
-		"illuminate/database": "4.1.*",
-		"illuminate/validation": "4.1.*",
-		"illuminate/pagination": "4.1.*",
-		"phpunit/phpunit":"4.5",
+	"illuminate/database": "4.1.*",
+	"illuminate/validation": "4.1.*",
+	"illuminate/pagination": "4.1.*",
+	"phpunit/phpunit":"4.5",
         "filp/whoops": "1.x-dev",
         "monolog/monolog": "^1.23"
     },
