@@ -1,0 +1,19 @@
+{
+    "require": {
+        "klein/klein": "^2.1",
+		"illuminate/database": "4.1.*",
+		"illuminate/validation": "4.1.*",
+		"illuminate/pagination": "4.1.*",
+		"phpunit/phpunit":"4.5",
+        "filp/whoops": "1.x-dev",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "app/http/",
+            "Middleware\\": "app/middleware/",
+            "Models\\": "app/models/",
+            "Core\\":"core/"
+        }
+    }   
+}
